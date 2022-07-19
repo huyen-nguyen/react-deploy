@@ -1,24 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import Garage from './components/Garage/Garage'
+// import Fridge from './components/Fridge/Fridge'
+import FridgeWithProps from "./components/Fridge/FridgeWithProps";
 
 function App() {
+	const fruits = [
+		{id: 1, name: 'banana'},
+		{id: 2, name: 'mango'},
+		{id: 3, name: 'lemon'},
+	];
 	return (
 		<div className="App">
 			<header className="App-header">
-				<Garage />
-				{/*<img src={logo} className="App-logo" alt="logo" />*/}
-				{/*<p>*/}
-				{/*	Edit <code>src/App.js</code> and save to reload.*/}
-				{/*</p>*/}
-				{/*<a*/}
-				{/*	className="App-link"*/}
-				{/*	href="https://reactjs.org"*/}
-				{/*	target="_blank"*/}
-				{/*	rel="noopener noreferrer"*/}
-				{/*>*/}
-				{/*	Learn React*/}
-				{/*</a>*/}
+				<FridgeWithProps fruits={fruits} />
 			</header>
 		</div>
 	);

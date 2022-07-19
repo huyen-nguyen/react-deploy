@@ -1,14 +1,17 @@
-import Car from '../Car/Car';
+import Car from '../Car/Car'
 
 function Garage(){
-	const carInfo = {
-		name: 'Dodge',
-		model: 'Challenger',
+	const carName = {
+		brand: "Dodge",
+		model: "Challenger",
+	}
+	const carPower = {
+		hp: 100,
 	}
 	return (
 		<>
 			<h1>Who lives in my Garage?</h1>
-			<Car brand={carInfo} />
+			<Car info={carName} strength={carPower} color={"red"} />
 		</>
 	)
 }
