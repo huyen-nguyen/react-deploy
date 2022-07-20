@@ -1,11 +1,11 @@
 import './App.css';
-import Timer from "./components/Timer/Timer";
+import CounterTimer from "./components/Counter/CounterTimer";
 
 function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<Timer />
+				<CounterTimer />
 			</header>
 		</div>
 	);

@@ -4,9 +4,11 @@ function Timer() {
 	const [count, setCount] = useState(0);
 
 	useEffect(() => {
-		setTimeout(() => {
-			setCount(() => count + 1);
+		let timer = setTimeout(() => {
+			setCount((count) => count + 1);
 		}, 1000);
+
+		return () => clearTimeout(timer)    // effect clean up
 	});
 
 	return <h1>I have rendered {count} times! ⏱</h1>;
