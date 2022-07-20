@@ -1,11 +1,11 @@
 import './App.css';
-import CarWithHook from "./components/Car/CarWithHook";
+import Timer from "./components/Timer/Timer";
 
 function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<CarWithHook />
+				<Timer />
 			</header>
 		</div>
 	);
