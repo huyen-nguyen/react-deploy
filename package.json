@@ -1,7 +1,8 @@
 {
   "name": "react-deploy",
   "version": "0.1.0",
-  "private": false,
+  "homepage": "https://huyen-nguyen.github.io/react-deploy",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -39,6 +40,5 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  },
-  "homepage": "https://huyen-nguyen.github.io/react-deploy"
+  }
 }

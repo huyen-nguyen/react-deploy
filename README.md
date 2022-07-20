@@ -6,6 +6,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm run deploy`
+
+Deploys the React app to GitHub Pages.
+
+🪄 this is where the *magic* happens: `deploy` script will push the contents of newly created `build` folder to a new
+commit on the `gh-pages` branch, [details](https://github.com/gitname/react-gh-pages#7-deploy-the-react-app-to-github-pages).
+
+So basically: **run this command on local = deploy on remote GitHub page.**
+
 ### `npm start`
 
 Runs the app in the development mode.\

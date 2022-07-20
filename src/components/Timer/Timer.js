@@ -9,7 +9,7 @@ function Timer() {
 		}, 1000);
 	});
 
-	return <h1>I have rendered {count} times yall!</h1>;
+	return <h1>I have rendered {count} times! ⏱</h1>;
 }
 
 export default Timer;
