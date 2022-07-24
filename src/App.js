@@ -1,11 +1,11 @@
 import './App.css';
-import CounterTimer from "./components/Counter/CounterTimer";
+import Chart from './components/Chart/Chart'
 
 function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<CounterTimer />
+				<Chart />
 			</header>
 		</div>
 	);
