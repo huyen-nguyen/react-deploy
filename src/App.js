@@ -1,11 +1,11 @@
 import './App.css';
-import Chart from './components/Chart/Chart'
+import Tracking from "./components/Input/Tracking";
 
 function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<Chart />
+				<Tracking />
 			</header>
 		</div>
 	);

@@ -9,7 +9,7 @@ function Timer() {
 		}, 1000);
 
 		return () => clearTimeout(timer)    // effect clean up
-	});
+	}, []); // dependency array here
 
 	return <h1>I have rendered {count} times! ⏱</h1>;
 }
